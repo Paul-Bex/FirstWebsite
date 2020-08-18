@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <p>Phone 666999123</p>
+  <p>email@email.com</p>
+  <p>address</p>
+  <hr>
+  <form action="mailto:paul-bex@wp.pl method=" post" enctype="text/plain">
+
+    <label for="">Please enter your name</label>
+    <input type="text" name="YourName" value=""><br>
+
+    <label for="">When would you like to meet?</label>
+    <input type="date" name="YourDate" value=""><br>
+
+    <label for="">Please enter your e-mail address</label>
+    <!--remember about line break here to make website clean -->
+
+    <input type="email" name="YourEmail" value=""><br>
+    <label for="">You can write your message here:</label><br>
+    <textarea name="name" rows="10" cols="50" placeholder="Please type your text here"></textarea><br>
+
+    <label for="">Please enter your phone number</label>
+    <input type="tel" name="YourPhone" value="" placeholder="123456789"><br>
+
+    <label for="">How much do you like my dog?</label>
+    <input type="range" name="Dog" value=""><br>
+
+    <label for="">You can upload your photo here</label>
+    <input type="file" name="YoutPhoto" value=""><br>
+
+    <label for="place">Choose a place to meet:</label>
+    <input list="place" name="place">
+    <datalist id="place">
+
+      <option value="Coffee shop">
+      <option value="Restaurant">
+      <option value="Park">
+      <option value="My place">
+      <option value="Your place">
+
+    </datalist> <br>
+
+    <label for="">If you completed all form, please submit your answers</label>
+    <input type="submit" name="Submit">
+
+  </form>
+</body>
+
+</html>
